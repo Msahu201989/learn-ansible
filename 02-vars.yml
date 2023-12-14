@@ -4,6 +4,6 @@
     URL: google.com
   tasks:
     - name: print variable
-      ansible.builtin.debig:
+      ansible.builtin.debug:
         msg: URL = {{ URL }}
     ## Ansible Access Variable with 2 flower brackets
