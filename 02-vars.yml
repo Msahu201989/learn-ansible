@@ -1,5 +1,5 @@
 - name: Variable
-  hosts: all
+  hosts: WEB
   vars:
     URL: play.google.com
   tasks:
