@@ -5,5 +5,5 @@
     fruit_name: apple
   tasks:
     - ansible.builtin.template:
-        src: test.txt
-        dest: /tmp/test.txt
+        src: test.tf.txt
+        dest: /tmp/test.tf.txt
